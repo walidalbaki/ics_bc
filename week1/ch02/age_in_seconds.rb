@@ -4,4 +4,4 @@
 # And don't forget to take leap years into account!
 
 
-### Your Code Here ###
+puts 37*366*24*60*60 + 113*365*24*60*60 + 280*24*60*60
