@@ -4,4 +4,4 @@
 # ... Seriously though, Googling things is highly underrated.
 
 
-### Your Code Here ###
+puts 365 * 24
