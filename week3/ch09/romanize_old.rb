@@ -1,6 +1,3 @@
-
-
-
 def old_roman_numeral number
   nums = [1000, 500, 100, 50, 10, 5 , 1]
   nums_strings = ['M','D', 'C', 'L', 'X', 'V', 'I']
@@ -18,11 +15,3 @@ def old_roman_numeral number
 end
 puts str
 end
-
-
-old_roman_numeral 15
-old_roman_numeral 2000
-old_roman_numeral 1
-old_roman_numeral 10
-old_roman_numeral 49
-old_roman_numeral 1420
