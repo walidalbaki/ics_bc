@@ -3,16 +3,17 @@
 
 def array_max(array)
   if array.length == 1  # base case
-    return _________
+    return array[0]
   else
-    last = _________
-    rest = _________________  # recursive call - array is now shorter
+    last = array[array.length - 1]
+    rest = array_max(array[last - 1]) # recursive call - array is now shorter
     if last > rest
-      return ______
+      return last
     else
-      return ______
+      array.pop()
+      return rest
     end
   end
 end
 
-puts(array_max([3, 5, -2, 8, 4])) # expected: 8
+# puts(array_max([3, 5, -2, 8, 4])) # expected: 8
